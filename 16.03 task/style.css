@@ -1,12 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 section {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.img2{
+  display: none;
+}
+
 p {
-  width: 400px;
+  width: 600px;
   line-height: 25px;
+  font-size: 20px;
+  
 }
 
 .underline {
@@ -14,20 +26,25 @@ p {
   width: 100px;
 }
 @media only screen and (max-width: 766px) {
-  body {
+  .text{
     background-color: bisque;
+    height: 50%;
+    width: 100%;
   }
   .img1 {
     display: none;
   }
 
   section {
-    display: block;
+    flex-direction: column;
   }
+   p {
+    width: 100%;
+  }
+.img2{
+  display: block;
 }
 
-@media only screen and (min-width: 767px) {
-  .img2 {
-    display: none;
-  }
 }
+
+
