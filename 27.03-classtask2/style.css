@@ -1,0 +1,107 @@
+.sec1{
+  height: 100vh;
+  background-image: url(./sec1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  background-color: black;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li {
+  color: aliceblue;
+  margin: 20px;
+  padding: 10px;
+}
+.navbar {
+  list-style: none;
+  margin: 30px;
+}
+.shadow{
+    text-shadow: 3px 3px 3px crimson;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+p{
+    width: 50%;
+}
+/* SECTION2 */
+.sec2{
+    height: 100vh;
+    background-image: url(./sec2.png);
+    background-attachment: fixed;
+}
+/* SECTION3 */
+
+.sec3{
+    height: 100vh;
+    display: flex;
+   
+
+}
+.sec3 h1{
+    text-align: center;
+}
+.containert{
+    border: 2px solid rgb(207, 40, 40);
+    width: 100%;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+   
+    position: relative;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+   
+   
+}
+.box1{
+    background-color: aqua;
+   position: absolute;
+   left: 20%;
+   top: 40%;
+
+}
+.box2{
+    background-color: rgb(6, 49, 49);
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+.box3{
+    background-color: rgb(75, 22, 197);
+    
+    position: absolute;
+    left: 30%;
+    top: 70%;
+
+}
+.box4{
+    background-color: rgb(83, 10, 77);
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+.box5{
+    background-color: rgb(195, 228, 9);
+    position: absolute;
+    left: 70%;
+    top: 40%;
+
+}

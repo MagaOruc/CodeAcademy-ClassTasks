@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    display: flex;
+    
+}
+.left,.right {
+    width: 50%;
+}
+.rightt{
+    width: 50%;
+}
