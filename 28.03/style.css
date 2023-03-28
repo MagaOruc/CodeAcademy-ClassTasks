@@ -18,13 +18,15 @@
   align-items: center;
   font-size: 24px;
   margin: 20px;
+  transition-duration: 2s;
 }
 
 .box1 {
   background-color: red;
+  
 }
 .box2 {
-  background-color: rgb(20, 70, 0);
+  background-color: rgb(63, 202, 8);
 }
 .box3 {
   background-color: rgb(11, 8, 194);
@@ -34,19 +36,19 @@
 }
 .box1:hover {
   transform: scale(1.2);
-  transition-duration: 2s;
+ 
 }
 .box2:hover {
   transform: translate(50%, -80%);
-  transition-duration: 2s;
+ 
 }
 .box3:hover {
   transform: rotateY(360deg);
-  transition-duration: 2s;
+
 }
 .box4:hover {
   transform: skewX(10deg);
-  transition-duration: 2s;
+  
 }
 .box h1 {
   display: none;
@@ -63,20 +65,27 @@
 .sec2 {
   height: 100vh;
   background-color: black;
+  position: relative;
+
+}
+.flx{
   display: flex;
   justify-content: center;
-  align-items: center;
+ position: absolute;
+ top: 50%;
+ left: 45%;
+ transform: translate(-50%,-50%);
 }
+
+
 .mars{
-    transform: translate(10px,10px);
+    animation: rotation 12s infinite linear;
 }
-
-
 .rotate{
-    animation: rotation 10s infinite linear;
+    animation: rotation 10s infinite linear ;
 }
 .rotate2{
-    animation: rotation 100s infinite linear;
+    animation: rotation 100s infinite linear ;
 }
 @keyframes rotation {
     from{
@@ -86,4 +95,26 @@
         transform: rotate(360deg); 
     }
     
+}
+.star{
+  position: absolute;
+ width: 300px;
+ height: 200px;
+  
+  left: 75%;
+  
+}
+
+.translatetion{
+  animation: translate 5s  linear 1 forwards;
+}
+
+@keyframes translate {
+  from{
+    transform: translate(0px,0px);
+  }
+  to{
+    transform: translate(-370%,370%);
+  }
+  
 }
