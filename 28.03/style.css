@@ -1,0 +1,89 @@
+.sec1 {
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 20px;
+}
+
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: rgb(20, 70, 0);
+}
+.box3 {
+  background-color: rgb(11, 8, 194);
+}
+.box4 {
+  background-color: rgb(206, 117, 2);
+}
+.box1:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+.box2:hover {
+  transform: translate(50%, -80%);
+  transition-duration: 2s;
+}
+.box3:hover {
+  transform: rotateY(360deg);
+  transition-duration: 2s;
+}
+.box4:hover {
+  transform: skewX(10deg);
+  transition-duration: 2s;
+}
+.box h1 {
+  display: none;
+}
+.box:hover h1 {
+  display: block;
+}
+.box:hover h3 {
+  display: none;
+}
+
+/* SECTION2 */
+
+.sec2 {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mars{
+    transform: translate(10px,10px);
+}
+
+
+.rotate{
+    animation: rotation 10s infinite linear;
+}
+.rotate2{
+    animation: rotation 100s infinite linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg); 
+    }
+    
+}
