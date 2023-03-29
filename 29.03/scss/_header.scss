@@ -1,0 +1,43 @@
+header {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(218, 30, 30);
+    i {
+      transition-duration: 2s;
+
+      &:hover {
+        color: white;
+        transform: scale(1.5);
+      }
+    }
+
+    ul {
+    
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          padding: 10px;
+          color: black;
+          border-radius: 10px;
+
+          &:hover {
+            background-color: rgb(170, 144, 144);
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+.sec{ 
+    height: 100vh;
+    background-color: aquamarine;
+   
+   
+}
