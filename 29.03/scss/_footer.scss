@@ -1,26 +1,35 @@
 footer {
   height: 50vh;
+  background-color: rgb(177, 246, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .texts {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    .text3 {
+
+    .texts{
       display: flex;
-      flex-direction: column;
-      li {
-        list-style: none;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 200px;
+
+
+      h1{
+        font-size: 16px;
+        font-weight: 700;
+        margin: 20px;
+       
+
+        
       }
-    }
 
-    h1 {
-      font-size: 24px;
-      font-weight: 700;
-      margin: 30px;
-    }
+      a{
+        color: black;
+      }
 
-    p {
-      color: gray;
-    }
-  }
+      
+        
+      
+
+   }
+
 }
