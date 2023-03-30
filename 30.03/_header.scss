@@ -1,0 +1,102 @@
+header{
+    height: 100vh;
+
+    background-image: url(./image/sup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    nav{
+        display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+    
+
+
+
+
+        ul{ display: flex;
+            gap: 50px;
+
+          li{
+            list-style: none;
+
+
+            a{
+                color: white;
+                text-decoration: none;
+
+
+            }
+
+
+            }
+
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+}
+
+.text{
+ 
+
+    flex-direction: column;
+    margin: 170px 40px;
+   
+  
+
+
+
+    span{
+       font-family: 'Oswald', sans-serif;
+        font-family: 'Sono', sans-serif;;
+
+        color: rgb(107, 105, 105);
+        font-size: 20px;
+        text-decoration: line-through;
+
+        
+       
+
+
+
+
+    }
+     
+    h1{
+        color: white;
+        font-size: 36px;
+        margin: 80px 0;
+        font-family: 'Times New Roman', Times, serif;
+        
+       
+       
+    
+    }
+    a{
+        color: white;
+        background-color: rgb(107, 104, 104);
+        padding: 20px;
+        text-decoration: none;
+    }
+   
+    .image{
+        img{
+          width: 400px;
+          height: 400px;
+          border-radius: 50%;
+        }
+    }
+
+   
+
+}
