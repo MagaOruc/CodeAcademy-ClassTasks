@@ -1,43 +1,66 @@
-header {
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: rgb(218, 30, 30);
-    i {
-      transition-duration: 2s;
+header{
 
-      &:hover {
-        color: white;
-        transform: scale(1.5);
-      }
-    }
+    nav{
+        background-color: black;
+        height: 50px;
 
-    ul {
-    
 
-      li {
-        list-style: none;
 
-        a {
-          text-decoration: none;
-          padding: 10px;
-          color: black;
-          border-radius: 10px;
+        ul{display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 50px;
 
-          &:hover {
-            background-color: rgb(170, 144, 144);
-            color: white;
-          }
+            
+            
+
+
+
+            li{ list-style: none;
+                transition-duration: 1s;
+                padding: 8px;
+                border-radius: 8px;
+
+
+                &:hover {
+                    transform: scale(1.2);
+                    background-color: rgb(255, 255, 255);
+                    a{
+                        color: black;
+                    }
+                    i{
+                        color: black;
+                    }
+                 
+                    
+
+                }
+
+
+                a{color: white;
+                    text-decoration: none;
+                    padding: 8px;
+
+                    
+                
+                    
+                    
+
+                 
+
+                }
+            }
+
+            i{
+                color: rgb(255, 255, 255);
+                transition-duration: 1s;
+               
+               
+
+
+
+            }
         }
-      }
     }
-  }
-}
-.sec{ 
-    height: 100vh;
-    background-color: aquamarine;
-   
    
 }
