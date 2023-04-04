@@ -48,4 +48,55 @@ header nav ul li a:hover::after {
   display: block;
   width: 100%;
   border: 1px solid red;
+}
+
+.minion .box {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  border-style: dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.minion .box:nth-child(odd) {
+  background-color: green;
+}
+.minion .box:nth-child(even) {
+  background-color: violet;
+}
+.minion .box:hover {
+  background-image: url(../image/minyon2.jpg);
+  background-position: center;
+  background-size: cover;
+  animation-name: rotation;
+  animation-duration: 4s;
+}
+.minion .box:hover h3 {
+  display: none;
+}
+@keyframes rotation {
+  0% {
+    transform: rotatex(0deg);
+  }
+  25% {
+    transform: rotatex(90deg);
+  }
+}
+.minion .title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.minion .title::after {
+  content: "";
+  background-color: red;
+  width: 10%;
+  height: 2px;
+  position: absolute;
+  display: block;
+  bottom: -5px;
 }/*# sourceMappingURL=main.css.map */
