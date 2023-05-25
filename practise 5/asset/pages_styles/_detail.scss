@@ -1,0 +1,28 @@
+.details {
+  position: relative;
+    
+    height: 100vh;
+  background-image: linear-gradient(red,yellow);
+    
+  .goback{
+    background-color: rgb(104, 168, 104);
+    padding: 10px ;
+    margin: 20px 0;
+
+  }
+  
+
+  .info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 60vh;
+    width: 300px;
+    background-color: rgb(104, 168, 104);
+  }
+}

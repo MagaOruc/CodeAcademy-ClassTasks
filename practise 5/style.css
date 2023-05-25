@@ -1,0 +1,126 @@
+.header {
+  height: 100vh;
+  background-image: url(./asset/image/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .container .common-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header .container .common-header .right-side nav ul {
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.header .container .common-header .right-side nav ul li a {
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.header .container .common-header .right-side nav ul li .fa-bars {
+  display: none;
+}
+.header .container .header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.header .container .header-bottom .text {
+  width: 50%;
+  margin-left: 50px;
+  color: white;
+  font-size: 36px;
+}
+.header .container .header-bottom .text p {
+  font-size: 20px;
+}
+.header .container .header-bottom .text .view-btn {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid white;
+}
+.header .container .header-bottom .text .view-btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.header .container .header-bottom .image {
+  width: 50%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+.robotViewPage {
+  height: 100vh;
+}
+.robotViewPage .text {
+  text-align: center;
+  font-size: 24px;
+}
+.robotViewPage .text p {
+  font-size: 20px;
+  color: grey;
+}
+.robotViewPage .row .col-3 {
+  text-align: center;
+}
+.robotViewPage .row .col-3 .img {
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  height: 250px;
+  width: 150px;
+}
+.robotViewPage .row .col-3 .under-image {
+  position: relative;
+  height: 60vh;
+  padding: 10px;
+  background-color: rgb(179, 179, 179);
+}
+.robotViewPage .row .col-3 .under-image .buttons {
+  position: absolute;
+  bottom: 0;
+}
+.robotViewPage .row .col-3 .under-image .buttons button {
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+.robotViewPage .row .col-3:hover button {
+  background-color: blueviolet;
+  color: white;
+}
+
+.details {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(red, yellow);
+}
+.details .goback {
+  background-color: rgb(104, 168, 104);
+  padding: 10px;
+  margin: 20px 0;
+}
+.details .info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 60vh;
+  width: 300px;
+  background-color: rgb(104, 168, 104);
+}/*# sourceMappingURL=style.css.map */
